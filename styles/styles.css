@@ -189,6 +189,11 @@ ol li,
   color: #fff;
 }
 
+.sectiune-contacte-list {
+    display: flex;
+    gap: 10px;
+}
+
 .sectiune-contacte,
 .sectiune-tech-skills,
 .sectiune-soft-skills {
@@ -203,12 +208,12 @@ ol li,
 }
 
 .sectiune-contacte-tip {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.sectiune-contacte-tip svg {
+    fill: white;
 }
 
 .sectiune-contacte-valoare {
